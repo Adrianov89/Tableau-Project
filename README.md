@@ -7,9 +7,9 @@ My goal is to present a revolutionary dashboard designed to empower football coa
 
 ## A) Data Cleaning
 1. Connect the data with no issue.
-2. 'Date-Time' tyoe of data is missing.
-3. Three columns were deleted right away as I didn;t find any value: PHOTO, FLAG & CLUB LOGO.
-4. NATIONALITY column was of string type. I casted it into Geographic role.
+2. 'Date-Time' type of data is missing.
+3. Three columns were deleted right away as I didn't find any value: PHOTO, FLAG & CLUB LOGO.
+4. NATIONALITY column was of string type. I cast it into a Geographic role.
 5. By doing a COUNT(Nationality) + PlayerName I found duplicates. 52 duplicates were removed in Excel.
 6. Split the 'Preferred Position' column.
 
@@ -17,9 +17,9 @@ My goal is to present a revolutionary dashboard designed to empower football coa
 ## B) Data Wrangling in Python
 1. I found out that there were countries with a lot of players (such as England with over 1600) whereas other countries contain as little as less than 10 players. This would affect my results so I decided the following:
   i. Keep countries with at least 50 players.
-  ii. Keep only the best 50 players per country using the 'Overall' column as parameter.
+  ii. Keep only the best 50 players per country using the 'Overall' column as a parameter.
 
- 2. I exported the new dataframe into a csv file. The csv and juoyter notebook can be found attached in this repo.
+ 2. I exported the new data frame into a CSV file. The CSV and Jupiter notebook can be found attached in this repo.
 
 ## C) Data Wrangling in Tableau
 1. Created several Calculated Fields (such as GK skills, GK stats, and many more) with the stats I believe are the most important for each position in the field in order to find out who the best players for each position were.
@@ -33,7 +33,7 @@ In the end, I crafted a nice dashboard that serves as a must-have tool for any f
 
 
 ## Challenges 
-Visuals in Tableau Desktop and in Tableau Web sometimes are very different, like sizes, chart positions, and many more.
+Visuals in Tableau Desktop and in Tableau Web sometimes are very different, in sizes, chart positions, and many more.
 
 ## Future Goals
-I would like to work more on filters and in calculating the average of the team stats when we sub one player for another one.
+I would like to work more on filters and calculating the average of the team stats when we sub one player for another one.
